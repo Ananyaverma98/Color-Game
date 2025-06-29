@@ -72,34 +72,7 @@ function reset(){
     }
     h1.style.background="steelblue";
 }
-// easybtn.addEventListener("click",function(){
-//  easybtn.classList.add("selected");
-//  hardbtn.classList.remove("selected");
-//  numofsq=3;
-//  colors=generatecolor(numofsq);
-//  picked=pickcolor();
-//  colordisplay.textContent=picked;
-//  for(var i=0;i<squares.length;i++){
-//      if(colors[i]){
-//          squares[i].style.background=colors[i];
-//      }
-//      else{
-//          squares[i].style.display="none";
-//      }
-//  }
-// });
-// hardbtn.addEventListener("click",function(){
-//     hardbtn.classList.add("selected");
-//     easybtn.classList.remove("selected");
-//     numofsq=6;
-//     colors=generatecolor(numofsq);
-//     picked=pickcolor();
-//     colordisplay.textContent=picked;
-//     for(var i=0;i<squares.length;i++){
-//             squares[i].style.background=colors[i];
-//             squares[i].style.display="block";
-//     }
-// });
+
 resetbutton.addEventListener("click",function(){
     reset();
 });
